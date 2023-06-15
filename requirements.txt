@@ -1,0 +1,4 @@
+potassium
+torch
+diffusers[torch]
+transformers
