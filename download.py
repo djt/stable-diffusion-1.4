@@ -2,6 +2,7 @@ from diffusers import DiffusionPipeline, DPMSolverMultistepScheduler
 import os
 import torch
 
+# Download the model
 def download_model():
     HF_AUTH_TOKEN = os.getenv('HF_AUTH_TOKEN')
 
